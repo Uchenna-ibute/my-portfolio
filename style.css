@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 20px;
+}
+/*Mobile*/
+.header {
+    height: 120px;
+    background-color: rgb(60, 58, 57);
+    position: relative;
+    border: 2px solid rgb(255, 107, 0);
+}
+.lo {  
+    width: 100px;
+    height: 45px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 40px;
+    top: 75px;
+}
+.img {
+    border: 2px solid #ACB7C3;
+    width: 45px;
+    height: 2px;
+    position: absolute;
+    right: 90px;
+    background-color: white;
+    margin-top: 10px;
+}
+.img1 {
+    top: 65px;
+}
+.img2 {
+    top: 75px;
+}
+.img3 {
+    top: 85px;
+}
+.top {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 40px;
+    top: 25px;
+    letter-spacing: 2px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+}
+.ico {
+    position: absolute;
+    right: 70px;
+    top: 25px;
+    display: flex;
+    gap: 5px;
+}
+.fa {
+    color: white;
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    background: #1C1A19;
+    padding: 120px 64px;
+    position: relative;
+}
+.head {
+    width: 55rem;
+    height: 10rem;
+    font-family: 'Crete Round';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: rgb(255, 107, 0);
+    margin-top: 50px;
+    margin-bottom: -75px;
+}
+.title {
+    width: 400px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFF5E1;
+}
+.para {
+    border: 2px solid rgb(255, 107, 0);
+}
+.para p {
+    width: 327px;
+height: 123px;
+
+/* Theme 1 / Body Reguler 2 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* Theme 3 / Neutral 11 */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.icons {
+    display: flex;
+    gap: 10px;
+}
+.fas {
+    color: white;
+}
