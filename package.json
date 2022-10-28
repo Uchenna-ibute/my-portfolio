@@ -1,5 +1,5 @@
 {
-  "dependencies": {
+  "devDependencies": {
     "stylelint": "^14.14.0",
     "stylelint-config-standard": "^29.0.0",
     "stylelint-csstree-validator": "^2.0.0",
