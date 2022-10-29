@@ -30,7 +30,7 @@
 
 .fa-bars {
   position: absolute;
-  right: 90px;
+  right: 80px;
   color: white;
   margin-top: 10px;
   top: 50px;
@@ -478,4 +478,16 @@
 .setting {
   display: flex;
   gap: 20px;
+}
+@media screen and (max-width: 700px) {
+  .section1, .work {
+    padding-left: 30px;
+  }
+  .about {
+    padding: 4rem 0;
+  }
+  .about-line{
+    padding: 0 30px;
+    padding-bottom: 10rem;
+  }
 }
